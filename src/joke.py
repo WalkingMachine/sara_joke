@@ -7,8 +7,6 @@ from sara_joke.srv import joke
 
 def get_random_joke(req):
 
-    print req.language
-
     if req.language == "en":
         jokes = [
             "A blind man walks into a bar. And a table. And a chair.",
