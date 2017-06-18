@@ -11,6 +11,9 @@ def get_random_joke(req):
         jokes = [
             "A blind man walks into a bar. And a table. And a chair.",
             "Why was 6 afraid of 7?                  Because 7, 8, 9",
+            "Trust me i was build by futur engineers",
+            "A robot walks into a pharmacy. The pharmacist asks him if he'd like anything. The robot replies, A soul.",
+            "Two statisticians are out hunting when one of them sees a duck. The first takes aim and shoots, but the bullet goes sailing past six inches too high. The second statisticians also takes aim and shoots, but this time the bullet goes saling past six inches too low. The two statisticians then give one another high fives and exclaim, Got him!",
         ]
     elif req.language == "fr":
         jokes = []
