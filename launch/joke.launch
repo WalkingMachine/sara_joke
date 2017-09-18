@@ -1,0 +1,5 @@
+<launch>
+    <param name="joke_fr" value="$(find sara_joke)/joke_fr.yaml"/>
+    <param name="joke_en" value="$(find sara_joke)/joke_en.yaml"/>
+    <node name="joke" pkg="sara_joke" type="joke.py"/>
+</launch>
